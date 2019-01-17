@@ -12,17 +12,24 @@ width: 40%
   color: yellow;
 }
 
-  .column2 {
+.column2 {
     width: 300px;
     float: left;
     color: red
 
     }
 
-    .column3 {
+.column3 {
       width: 300px;
       float: left;
       color: green
+
+      }
+
+@media screen and (max-width: 780px) {
+        body {
+          background-color: teal;
+        }
 
       }
 
@@ -33,11 +40,4 @@ width: 40%
   background-color: green;
   font-style: italic;
   }
-}
-
-@media screen and (max-width: 780px) {
-  body {
-    background-color: teal;
-  }
-
 }
