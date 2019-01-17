@@ -25,3 +25,19 @@ width: 40%
       color: green
 
       }
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+
+  body{
+
+  background-color: green;
+  font-style: italic;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    background-color: teal;
+  }
+
+}
